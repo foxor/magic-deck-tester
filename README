@@ -1,0 +1,5 @@
+I was playing around with this ( http://www.mtgvault.com/DrawSimulator.aspx?DeckID=192325 ) deck and trying to figure out how quickly it killed on average.  It's a really simple infect stompy deck.
+
+There are too many possible scenarios to enumerate, and the optimal play is about as simple as it gets in Magic, so I decided to give it to an AI and see how fast it was.
+
+This implementation is really minimal and makes a few assumptions that inhibit extension.  Chief among them is the assumption that all the poison has to be applied in 1 turn.
